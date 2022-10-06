@@ -1,20 +1,20 @@
 --[[
 
-__   __    _
-\ \ / /_ _| |_
- \ V / _` | __|
-  | | (_| | |_
-  |_|\__,_|\__|
-
-
-File:        init.lua
-Author:      Mateus Ryan <mthryan@protonmail.com>
-Description: Yes, another theme
-Licence:     MIT
+______         _  ___  ___          _                 
+| ___ \       | | |  \/  |         | |                
+| |_/ /__  ___| |_| .  . | ___   __| | ___ _ __ _ __  
+|  __/ _ \/ __| __| |\/| |/ _ \ / _` |/ _ \ '__| '_ \ 
+| | | (_) \__ \ |_| |  | | (_) | (_| |  __/ |  | | | |
+\_|  \___/|___/\__\_|  |_/\___/ \__,_|\___|_|  |_| |_|
+                                                        
+ File:        lua/postmodern/init.lua
+ Author:      Mateus Ryan <mthryan@protonmail.com>
+ Description: Real post modern? maybe, maybe not. Just enjoy the theme.
+ Licence:     MIT
 
 --]]
 
-local theme = require("yat.theme")
+local theme = require("postmodern.theme")
 
 function highlight(group, color)
   local style = color.st and "gui="   .. color.st or "gui=NONE"
@@ -39,7 +39,7 @@ function setup()
     if vim.fn.exists("syntax_on") then vim.cmd("syntax reset") end
     vim.o.background    = "dark"
     vim.o.termguicolors = true
-    vim.g.colors_name   = "yat"
+    vim.g.colors_name   = "postmodern"
 
     local editor   = theme.loadEditor()
     local syntax   = theme.loadSyntax()
