@@ -15,20 +15,21 @@ ______         _  ___  ___          _
 --]]
 
 local colors = {
-    bg1 = "#14161A", --bg
-    fg1 = "#CBD7E6", --fg
-    fg2 = "#4F5A69", --fg_subtle
-    fg3 = "#626C7A", --fg_mute/grey
-    bg2 = "#272D34", --bg_soft
-    bg3 = "#323943", --bg_bright
+    bg1    = "#14161A",
+    fg1    = "#CBD7E6",
+    fg2    = "#4F5A69",
+    fg3    = "#626C7A",
+    bg2    = "#272D34",
+    bg3    = "#323943",
 
+    com    = "#929bed",
     accent = "#5FB7C8",
     prime  = "#DF4987",
 
-    err = "#C13535",
-    war = "#F0C674",
-    inf = "#679DCB",
-    hin = "#A6ADEF",
+    err    = "#C13535",
+    war    = "#F0C674",
+    inf    = "#679DCB",
+    hin    = "#A6ADEF",
 }
 
 return colors

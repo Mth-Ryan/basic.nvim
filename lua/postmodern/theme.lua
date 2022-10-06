@@ -55,7 +55,7 @@ theme.loadSyntax = function()
         SpecialKey   = { fg = colors.accent,               },
         Todo         = { fg = colors.accent, st = "bold"   },
         Underlined   = { st = "underline"                  },
-        Comment      = { fg = colors.fg3,    st = "italic" },
+        Comment      = { fg = colors.com,    st = "italic" },
 
         Type         = { fg = colors.fg3,                  },
         Typedef      = { link = "Constant",                },
