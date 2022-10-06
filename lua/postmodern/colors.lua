@@ -15,24 +15,17 @@ ______         _  ___  ___          _
 --]]
 
 local colors = {
-    bg1 = "#1B1C24",
-    fg1 = "#D4D2CF",
-    fg2 = "#c3c1be",
-    fg3 = "#b2b0ae",
-    fg4 = "#a1a09d",
-    bg2 = "#232431",
-    bg3 = "#323340",
-    bg4 = "#40414D",
-    yel = "#fecc86",
-    org = "#E39B71",
-    pur = "#a6adef",
-    red = "#d93861",
-    gra = "#525863",
-    blu = "#679DCB",
-    cya = "#60B7A5",
-    gre = "#C2D076",
-    err = "#c13535",
-    war = "#f0c674",
+    bg1 = "#14161A",
+    fg1 = "#CBD7E6",
+    fg2 = "#4F5A69",
+    fg3 = "#626C7A",
+    bg2 = "#272D34",
+    bg3 = "#323943",
+
+    err = "#C13535",
+    war = "#F0C674",
+    inf = "#679DCB",
+    hin = "#A6ADEF",
 }
 
 return colors

@@ -43,15 +43,13 @@ function setup()
 
     local editor   = theme.loadEditor()
     local syntax   = theme.loadSyntax()
-    local specific = theme.loadSpecific()
     local lsp      = theme.loadLsp()
 
     tableHighlight(editor)
     tableHighlight(syntax)
-    tableHighlight(specific)
     tableHighlight(lsp)
 
-    theme.loadTerminal()
+    -- theme.loadTerminal()
 
     local lspIcons = theme.loadLspIcons()
     for group, options in pairs(lspIcons) do
