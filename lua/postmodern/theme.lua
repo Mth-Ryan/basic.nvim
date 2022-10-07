@@ -26,6 +26,7 @@ theme.loadEditor = function()
         CursorLineNr = { fg = colors.fg1,                     },
         LineNr       = { fg = colors.bg3,                     },
         VertSplit    = { fg = colors.bg3, bg = colors.bg1,    },
+        SignColumn   = { bg = colors.bg1                      },
         Visual       = { fg = colors.fg1, bg = colors.bg3,    },
         MatchParen   = { fg = colors.err, st = "underline"    },
         StatusLine   = { fg = colors.fg1, bg = colors.bg1,    },
