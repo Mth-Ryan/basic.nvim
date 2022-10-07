@@ -25,6 +25,7 @@ local colors = {
     com    = "#929bed",
     accent = "#5FB7C8",
     prime  = "#DF4987",
+    git    = "#FD9149",
 
     err    = "#C13535",
     war    = "#F0C674",
